@@ -1,11 +1,9 @@
 package com.green.greengram.user.model;
 
 import io.swagger.v3.oas.annotations.media.Schema;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
+@ToString
 @Getter
 @Builder
 @NoArgsConstructor//json으로 바뀔때 기본생성자가 있어야함

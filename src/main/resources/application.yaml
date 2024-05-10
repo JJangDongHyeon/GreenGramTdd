@@ -23,18 +23,18 @@ springdoc:
     default-model-expand-depth: 10
     default-models-expand-depth: 10
     display-request-duration: true # try it out ? ?? ? request duration(?? ????) ? ??? ???
-    cache:
-      disabled: true
+  cache:
+    disabled: true
 
 file:
   directory: D:\Students\DongHyeon\2024-01\download\greengram_ver2\
 
----
-
-spring:
-  config:
-    activate:
-      on-profile: test
-
-file:
-  directory: D:\Students\DongHyeon\2024-01\download\greengram_ver2\
+#---
+#
+#spring:
+#  config:
+#    activate:
+#      on-profile: test
+#
+#file:
+#  directory: D:\Students\DongHyeon\2024-01\download\greengram_ver2

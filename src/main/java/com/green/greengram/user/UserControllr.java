@@ -17,15 +17,15 @@ import org.springframework.web.multipart.MultipartFile;
 @RequiredArgsConstructor
 @RequestMapping("/api/user")
 @Tag(name = "유저 컨트롤러", description = "sign-up , sign-in")
-public class UserControll {
+public class UserControllr {
     private final UserService service;
 
     @PostMapping("sign-up")
     @Operation(summary = "회원가입" , description = "프로필 사진은 필수가 아님")
-    public ResultDto<Integer> postUser(@RequestPart(required = false) MultipartFile file,
+    public ResultDto<Integer> postUser(@RequestPart(required = false) MultipartFile pic,
                                        @RequestPart SignUpPostReq p){
-       int result =  service.postUser(file, p);
-
+        log.info("Controllpic:{}" , pic);
+        int result =  service.postUser(pic, p);
         return ResultDto.<Integer>builder()
                 .statusCode(HttpStatus.OK)
                 .resultMsg("회원가입 완료")
@@ -36,7 +36,7 @@ public class UserControll {
     @Operation(summary = "회원 인증" )
     public ResultDto<SignInRes> postSignIn(@RequestBody SignInPostReq p){
         SignInRes result = service.postSignIn(p);
-
+        log.info("pic : {}",result);
         return ResultDto.<SignInRes>builder()
                 .statusCode(HttpStatus.OK)
                 .resultMsg("로그인 완료")

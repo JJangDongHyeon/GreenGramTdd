@@ -22,7 +22,7 @@ import java.util.List;
 public class FeedControll {
     private final FeedService service;
     @PostMapping
-    public ResultDto<FeedPostRes> postFeed(@RequestPart(required = false) List<MultipartFile> file
+    public ResultDto<FeedPostRes> postFeed(@RequestPart(required = false, name = "pics") List<MultipartFile> file
                                     , @RequestPart FeedPostReq p){
         FeedPostRes result = service.postFeed(file , p);
 
@@ -37,7 +37,7 @@ public class FeedControll {
 
     public ResultDto<List<FeedGetRes>> getFeed(@ParameterObject @ModelAttribute FeedGetReq p){
         List<FeedGetRes> result = service.getFeed(p);
-
+        System.out.println("result:" + result);
         return ResultDto.<List<FeedGetRes>>builder()
                 .statusCode(HttpStatus.OK)
                 .resultMsg(HttpStatus.OK.toString())
