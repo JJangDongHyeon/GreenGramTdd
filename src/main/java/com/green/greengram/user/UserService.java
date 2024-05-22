@@ -2,10 +2,7 @@ package com.green.greengram.user;
 
 import com.green.greengram.common.CustomFileUtils;
 import com.green.greengram.common.model.ResultDto;
-import com.green.greengram.user.model.SignInPostReq;
-import com.green.greengram.user.model.SignInRes;
-import com.green.greengram.user.model.SignUpPostReq;
-import com.green.greengram.user.model.User;
+import com.green.greengram.user.model.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.mindrot.jbcrypt.BCrypt;
@@ -57,4 +54,28 @@ public class UserService {
                .pic(user.getPic()).build();
     }
 
+    public UserInfoGetRes getProfileUserInfo(UserInfoGetReq p){
+        return mapper.selProfileUserInfo(p);
+    }
+
+    @Transactional
+    public String patchProfilePic(UserProfilePatchReq p) {
+        String fileNm = customFileUtils.makeRandomFileName(p.getPic());
+        p.setPicName(fileNm);
+        mapper.updProfilePic(p);
+
+        //기존 폴더 삭제
+        try {
+            String midPath = String.format("user/%d", p.getSignedUserId());
+            String delAbsoluteFolderPath = String.format("%s%s", customFileUtils.uploadPath, midPath);
+            customFileUtils.deleteFolder(delAbsoluteFolderPath);
+
+            customFileUtils.makeFolders(midPath);
+            String filePath = String.format("%s/%s", midPath, fileNm);
+            customFileUtils.transferTo(p.getPic(), filePath);
+        } catch (Exception e) {
+            throw new RuntimeException("사진 변경 오류");
+        }
+        return fileNm;
+    }
 }

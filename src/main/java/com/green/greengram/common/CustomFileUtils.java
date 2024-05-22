@@ -12,7 +12,7 @@ import java.util.UUID;
 @Getter
 public class CustomFileUtils {
      //file.directory
-    private final String uploadPath;//자바 밖에 파일을 두면 컴파일 할 필요가 없다. yaml가서 경로만 바꾸면됨
+    public final String uploadPath;//자바 밖에 파일을 두면 컴파일 할 필요가 없다. yaml가서 경로만 바꾸면됨
 
     public CustomFileUtils(@Value("${file.directory}") String uploadPath) {
         this.uploadPath = uploadPath;
@@ -53,6 +53,22 @@ public class CustomFileUtils {
             mf.transferTo(saveFile);
         //지금 pic은 메모리에 저장되어있음 이제 File에 저장 할 수있게 옮길거임
         //메소드 호출시 에러 터지면 대부분 throw
+    }
+    //폴더 삭제                    uploadPath +    "/user/3"
+    public void deleteFolder(String absoluteFolderPath) { //D:\2024-01\download\greengram_ver3 상대 주소
+        File folder = new File(absoluteFolderPath);
+        if(folder.exists() && folder.isDirectory()) {// 폴더가 존재하는지 확인 , 폴더인지 파일인지 확인 (폴더)
+            File[] files = folder.listFiles(); // 파일 객체로 객체화 해서 배열 형태로 리턴 해준다.
+
+            for(File f : files) {
+                if(f.isDirectory()) {
+                    deleteFolder(f.getAbsolutePath());
+                } else {
+                    f.delete();
+                }
+            }
+            folder.delete();
+        }
     }
 }
 

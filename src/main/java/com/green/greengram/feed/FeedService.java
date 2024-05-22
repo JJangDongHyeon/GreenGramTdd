@@ -27,7 +27,8 @@ public class FeedService {
                     .build();
         }
         FeedPicPostDto dto = FeedPicPostDto.builder()
-                            .feedId(p.getFeedId()).build();
+                            .feedId(p.getFeedId())
+                            .build();
 
         System.out.println("asdasdasd");
 
@@ -39,9 +40,9 @@ public class FeedService {
                 dto.getFileNames().add(saveFileName);
                 String target = String.format("%s/%s",path,saveFileName);
                 customFileUtils.transferTo(pic,target);
-                mapper.postFeedPics(dto) ;
 
             }
+                mapper.postFeedPics(dto) ;
         } catch (Exception e){
                 e.printStackTrace();
             throw new RuntimeException("Feed 등록 오류");
