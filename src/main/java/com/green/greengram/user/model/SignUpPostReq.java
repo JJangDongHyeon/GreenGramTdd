@@ -15,6 +15,8 @@ public class SignUpPostReq {
     @Schema(example = "홍길동" , description = "유저 이름", requiredMode = Schema.RequiredMode.REQUIRED)
     private String nm;
 
+    private String email;
+
     @JsonIgnore
     private String pic;
     @JsonIgnore
