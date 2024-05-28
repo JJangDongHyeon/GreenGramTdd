@@ -1,7 +1,6 @@
 package com.green.greengram.feedFavorite;
 
 import com.green.greengram.common.model.ResultDto;
-import com.green.greengram.feed.FeedService;
 import com.green.greengram.feedFavorite.model.FeedFavoriteToggleReq;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
@@ -15,8 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("api/feed/favorite")
 @RequiredArgsConstructor
-public class FeedFavoriteController {
-    private final FeedFavoriteService service;
+public class FeedFavoriteControllerImpl {
+    private final FeedFavoriteServiceImpl service;
     //전송 데이터 적음, 데이터 노출되면 안되는 것(post나 put 으로ㅓ 해야함)
     //feed의 pk값은 노출되어도 상관없음
     @GetMapping

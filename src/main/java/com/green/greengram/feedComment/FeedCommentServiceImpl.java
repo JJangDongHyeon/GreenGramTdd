@@ -6,13 +6,12 @@ import com.green.greengram.feedComment.model.FeedCommentGetRes;
 import com.green.greengram.feedComment.model.FeedCommentPostReq;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class FeedCommentService {
+public class FeedCommentServiceImpl {
     private final FeedCommentMapper mapper;
 
     public long postFeedComment(FeedCommentPostReq p){

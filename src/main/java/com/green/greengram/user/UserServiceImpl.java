@@ -1,19 +1,17 @@
 package com.green.greengram.user;
 
 import com.green.greengram.common.CustomFileUtils;
-import com.green.greengram.common.model.ResultDto;
 import com.green.greengram.user.model.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.mindrot.jbcrypt.BCrypt;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 @Slf4j
 @Service
 @RequiredArgsConstructor
-public class UserService {
+public class UserServiceImpl {
     private final UserMapper mapper;
     private final CustomFileUtils customFileUtils;
 

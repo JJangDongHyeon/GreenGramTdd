@@ -1,5 +1,5 @@
-[2024-05-21 10:54:56 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 9460 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 10:54:56 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 10:54:56 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 9460 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 10:54:56 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 10:54:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-21 10:54:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-21 10:54:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -13,7 +13,7 @@
 [2024-05-21 10:54:58 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 10:54:58 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 10:54:58 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 10:54:58 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.42 seconds (process running for 2.879)[0;39m
+[2024-05-21 10:54:58 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.42 seconds (process running for 2.879)[0;39m
 [2024-05-21 10:54:58 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-21 10:54:58 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-21 10:54:58 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
@@ -87,8 +87,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" becau
 [2024-05-21 10:54:59 [32mINFO [0;39m RMI TCP Connection(3)-192.168.0.193] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
 [2024-05-21 10:55:21 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-21 10:55:21 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-21 10:55:23 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 7804 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 10:55:23 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 10:55:23 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 7804 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 10:55:23 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 10:55:23 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-21 10:55:23 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-21 10:55:24 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -102,7 +102,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" becau
 [2024-05-21 10:55:25 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 10:55:25 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 10:55:25 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 10:55:25 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.318 seconds (process running for 2.695)[0;39m
+[2024-05-21 10:55:25 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.318 seconds (process running for 2.695)[0;39m
 [2024-05-21 10:55:26 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-21 10:55:26 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-21 10:55:26 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
@@ -183,15 +183,15 @@ Was expecting one of:
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy101.getFeed(Unknown Source)
-	at com.green.greengram.feed.FeedService.getFeed(FeedService.java:59)
+	at com.green.greengram.feed.FeedServiceImpl.getFeed(FeedService.java:59)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
-	at com.green.greengram.feed.FeedService$$SpringCGLIB$$0.getFeed(<generated>)
-	at com.green.greengram.feed.FeedControll.getFeed(FeedControll.java:39)
+	at com.green.greengram.feed.FeedServiceImpl$$SpringCGLIB$$0.getFeed(<generated>)
+	at com.green.greengram.feed.FeedControllImpl.getFeed(FeedControll.java:39)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -326,15 +326,15 @@ Was expecting one of:
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy101.getFeed(Unknown Source)
-	at com.green.greengram.feed.FeedService.getFeed(FeedService.java:59)
+	at com.green.greengram.feed.FeedServiceImpl.getFeed(FeedService.java:59)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
-	at com.green.greengram.feed.FeedService$$SpringCGLIB$$0.getFeed(<generated>)
-	at com.green.greengram.feed.FeedControll.getFeed(FeedControll.java:39)
+	at com.green.greengram.feed.FeedServiceImpl$$SpringCGLIB$$0.getFeed(<generated>)
+	at com.green.greengram.feed.FeedControllImpl.getFeed(FeedControll.java:39)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -391,8 +391,8 @@ Was expecting one of:
 	at java.base/java.lang.Thread.run(Thread.java:840)
 [2024-05-21 10:56:16 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-21 10:56:16 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-21 10:56:18 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 10364 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 10:56:18 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 10:56:18 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 10364 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 10:56:18 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 10:56:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-21 10:56:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-21 10:56:19 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -406,7 +406,7 @@ Was expecting one of:
 [2024-05-21 10:56:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 10:56:20 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 10:56:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 10:56:20 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.104 seconds (process running for 2.484)[0;39m
+[2024-05-21 10:56:20 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.104 seconds (process running for 2.484)[0;39m
 [2024-05-21 10:56:20 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-21 10:56:20 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-21 10:56:20 [32mINFO [0;39m RMI TCP Connection(3)-192.168.0.193] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
@@ -490,15 +490,15 @@ Was expecting one of:
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy101.getFeed(Unknown Source)
-	at com.green.greengram.feed.FeedService.getFeed(FeedService.java:59)
+	at com.green.greengram.feed.FeedServiceImpl.getFeed(FeedService.java:59)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
-	at com.green.greengram.feed.FeedService$$SpringCGLIB$$0.getFeed(<generated>)
-	at com.green.greengram.feed.FeedControll.getFeed(FeedControll.java:39)
+	at com.green.greengram.feed.FeedServiceImpl$$SpringCGLIB$$0.getFeed(<generated>)
+	at com.green.greengram.feed.FeedControllImpl.getFeed(FeedControll.java:39)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -630,15 +630,15 @@ Was expecting one of:
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy101.getFeed(Unknown Source)
-	at com.green.greengram.feed.FeedService.getFeed(FeedService.java:59)
+	at com.green.greengram.feed.FeedServiceImpl.getFeed(FeedService.java:59)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
-	at com.green.greengram.feed.FeedService$$SpringCGLIB$$0.getFeed(<generated>)
-	at com.green.greengram.feed.FeedControll.getFeed(FeedControll.java:39)
+	at com.green.greengram.feed.FeedServiceImpl$$SpringCGLIB$$0.getFeed(<generated>)
+	at com.green.greengram.feed.FeedControllImpl.getFeed(FeedControll.java:39)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -695,8 +695,8 @@ Was expecting one of:
 	at java.base/java.lang.Thread.run(Thread.java:840)
 [2024-05-21 10:58:40 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-21 10:58:40 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-21 10:58:42 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 4624 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 10:58:42 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 10:58:42 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 4624 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 10:58:42 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 10:58:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-21 10:58:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-21 10:58:43 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -710,7 +710,7 @@ Was expecting one of:
 [2024-05-21 10:58:43 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 10:58:44 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 10:58:44 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 10:58:44 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.115 seconds (process running for 2.487)[0;39m
+[2024-05-21 10:58:44 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.115 seconds (process running for 2.487)[0;39m
 [2024-05-21 10:58:44 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-21 10:58:44 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-21 10:58:44 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.193] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
@@ -1516,8 +1516,8 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy102.delUserFollow(Unknown Source)
-	at com.green.greengram.userfollow.UserFollowService.deleteUserFollow(UserFollowService.java:17)
-	at com.green.greengram.userfollow.UserFollowController.deleteUserFollow(UserFollowController.java:27)
+	at com.green.greengram.userfollow.UserFollowServiceImpl.deleteUserFollow(UserFollowService.java:17)
+	at com.green.greengram.userfollow.UserFollowControllerImpl.deleteUserFollow(UserFollowController.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1582,8 +1582,8 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy102.delUserFollow(Unknown Source)
-	at com.green.greengram.userfollow.UserFollowService.deleteUserFollow(UserFollowService.java:17)
-	at com.green.greengram.userfollow.UserFollowController.deleteUserFollow(UserFollowController.java:27)
+	at com.green.greengram.userfollow.UserFollowServiceImpl.deleteUserFollow(UserFollowService.java:17)
+	at com.green.greengram.userfollow.UserFollowControllerImpl.deleteUserFollow(UserFollowController.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1640,8 +1640,8 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 	at java.base/java.lang.Thread.run(Thread.java:840)
 [2024-05-21 11:03:39 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-21 11:03:39 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-21 11:03:41 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 4816 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 11:03:41 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 11:03:41 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 4816 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 11:03:41 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 11:03:41 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-21 11:03:41 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-21 11:03:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -1655,7 +1655,7 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 [2024-05-21 11:03:43 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 11:03:43 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 11:03:43 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 11:03:43 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.115 seconds (process running for 2.488)[0;39m
+[2024-05-21 11:03:43 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.115 seconds (process running for 2.488)[0;39m
 [2024-05-21 11:03:43 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-21 11:03:43 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-21 11:03:43 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.193] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
@@ -1701,8 +1701,8 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 [0;39m
 [2024-05-21 11:12:52 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-21 11:12:52 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-21 11:14:36 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 2580 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 11:14:36 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 11:14:36 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 2580 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 11:14:36 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 11:14:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-21 11:14:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-21 11:14:37 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -1716,7 +1716,7 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 [2024-05-21 11:14:38 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 11:14:38 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 11:14:38 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 11:14:38 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.064 seconds (process running for 2.429)[0;39m
+[2024-05-21 11:14:38 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.064 seconds (process running for 2.429)[0;39m
 [2024-05-21 11:14:38 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-21 11:14:38 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-21 11:14:38 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
@@ -1861,8 +1861,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=54) Duplicate entry '0-
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy102.insUserFollow(Unknown Source)
-	at com.green.greengram.userfollow.UserFollowService.postUserFollow(UserFollowService.java:13)
-	at com.green.greengram.userfollow.UserFollowController.postUserFollow(UserFollowController.java:18)
+	at com.green.greengram.userfollow.UserFollowServiceImpl.postUserFollow(UserFollowService.java:13)
+	at com.green.greengram.userfollow.UserFollowControllerImpl.postUserFollow(UserFollowController.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1956,8 +1956,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=54) Duplicate entry '0-
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy102.insUserFollow(Unknown Source)
-	at com.green.greengram.userfollow.UserFollowService.postUserFollow(UserFollowService.java:13)
-	at com.green.greengram.userfollow.UserFollowController.postUserFollow(UserFollowController.java:18)
+	at com.green.greengram.userfollow.UserFollowServiceImpl.postUserFollow(UserFollowService.java:13)
+	at com.green.greengram.userfollow.UserFollowControllerImpl.postUserFollow(UserFollowController.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2049,8 +2049,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=54) Duplicate entry '0-
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy102.insUserFollow(Unknown Source)
-	at com.green.greengram.userfollow.UserFollowService.postUserFollow(UserFollowService.java:13)
-	at com.green.greengram.userfollow.UserFollowController.postUserFollow(UserFollowController.java:18)
+	at com.green.greengram.userfollow.UserFollowServiceImpl.postUserFollow(UserFollowService.java:13)
+	at com.green.greengram.userfollow.UserFollowControllerImpl.postUserFollow(UserFollowController.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2144,8 +2144,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=54) Duplicate entry '0-
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy102.insUserFollow(Unknown Source)
-	at com.green.greengram.userfollow.UserFollowService.postUserFollow(UserFollowService.java:13)
-	at com.green.greengram.userfollow.UserFollowController.postUserFollow(UserFollowController.java:18)
+	at com.green.greengram.userfollow.UserFollowServiceImpl.postUserFollow(UserFollowService.java:13)
+	at com.green.greengram.userfollow.UserFollowControllerImpl.postUserFollow(UserFollowController.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4047,15 +4047,15 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=54) Duplicate entry '0-
 java.lang.IllegalArgumentException: Invalid salt version
 	at org.mindrot.jbcrypt.BCrypt.hashpw(BCrypt.java:659)
 	at org.mindrot.jbcrypt.BCrypt.checkpw(BCrypt.java:764)
-	at com.green.greengram.user.UserService.postSignIn(UserService.java:48)
+	at com.green.greengram.user.UserServiceImpl.postSignIn(UserService.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
-	at com.green.greengram.user.UserService$$SpringCGLIB$$0.postSignIn(<generated>)
-	at com.green.greengram.user.UserControllr.postSignIn(UserControllr.java:37)
+	at com.green.greengram.user.UserServiceImpl$$SpringCGLIB$$0.postSignIn(<generated>)
+	at com.green.greengram.user.UserControllrImpl.postSignIn(UserControllr.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4126,15 +4126,15 @@ java.lang.IllegalArgumentException: Invalid salt version
 java.lang.IllegalArgumentException: Invalid salt version
 	at org.mindrot.jbcrypt.BCrypt.hashpw(BCrypt.java:659)
 	at org.mindrot.jbcrypt.BCrypt.checkpw(BCrypt.java:764)
-	at com.green.greengram.user.UserService.postSignIn(UserService.java:48)
+	at com.green.greengram.user.UserServiceImpl.postSignIn(UserService.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
-	at com.green.greengram.user.UserService$$SpringCGLIB$$0.postSignIn(<generated>)
-	at com.green.greengram.user.UserControllr.postSignIn(UserControllr.java:37)
+	at com.green.greengram.user.UserServiceImpl$$SpringCGLIB$$0.postSignIn(<generated>)
+	at com.green.greengram.user.UserControllrImpl.postSignIn(UserControllr.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4203,15 +4203,15 @@ java.lang.IllegalArgumentException: Invalid salt version
 [0;39m
 [2024-05-21 11:16:17 [31mERROR[0;39m http-nio-8080-exec-5] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] [36mServlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 비밀번호를 확인해주세요] with root cause[0;39m
 java.lang.RuntimeException: 비밀번호를 확인해주세요
-	at com.green.greengram.user.UserService.postSignIn(UserService.java:49)
+	at com.green.greengram.user.UserServiceImpl.postSignIn(UserService.java:49)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
-	at com.green.greengram.user.UserService$$SpringCGLIB$$0.postSignIn(<generated>)
-	at com.green.greengram.user.UserControllr.postSignIn(UserControllr.java:37)
+	at com.green.greengram.user.UserServiceImpl$$SpringCGLIB$$0.postSignIn(<generated>)
+	at com.green.greengram.user.UserControllrImpl.postSignIn(UserControllr.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4278,7 +4278,7 @@ java.lang.RuntimeException: 비밀번호를 확인해주세요
 |23      |모꾸꾸 |$2a$10$1t.CjcuJot4/lGzFe7Xid.Rz0.ZTaC.dR9JPvLFuP.Ien./v4Ke/O |꾸  |452beff4-c7e8-43cc-a3b3-fca019ccfdb7.png |2024-05-13 11:09:31 |null       |
 |--------|----|-------------------------------------------------------------|---|-----------------------------------------|--------------------|-----------|
 [0;39m
-[2024-05-21 11:16:19 [32mINFO [0;39m http-nio-8080-exec-4] [com.green.greengram.user.UserControllr] [36mpic : SignInRes(userId=23, nm=꾸, pic=452beff4-c7e8-43cc-a3b3-fca019ccfdb7.png)[0;39m
+[2024-05-21 11:16:19 [32mINFO [0;39m http-nio-8080-exec-4] [com.green.greengram.user.UserControllrImpl] [36mpic : SignInRes(userId=23, nm=꾸, pic=452beff4-c7e8-43cc-a3b3-fca019ccfdb7.png)[0;39m
 [2024-05-21 11:16:19 [32mDEBUG[0;39m http-nio-8080-exec-1] [jdbc.sqltiming] [36m com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
 1. SELECT  A.feed_id AS feedId,
                 B.user_id AS writerId,
@@ -6695,8 +6695,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=54) Duplicate entry '0-
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy102.insUserFollow(Unknown Source)
-	at com.green.greengram.userfollow.UserFollowService.postUserFollow(UserFollowService.java:13)
-	at com.green.greengram.userfollow.UserFollowController.postUserFollow(UserFollowController.java:18)
+	at com.green.greengram.userfollow.UserFollowServiceImpl.postUserFollow(UserFollowService.java:13)
+	at com.green.greengram.userfollow.UserFollowControllerImpl.postUserFollow(UserFollowController.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -6790,8 +6790,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=54) Duplicate entry '0-
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy102.insUserFollow(Unknown Source)
-	at com.green.greengram.userfollow.UserFollowService.postUserFollow(UserFollowService.java:13)
-	at com.green.greengram.userfollow.UserFollowController.postUserFollow(UserFollowController.java:18)
+	at com.green.greengram.userfollow.UserFollowServiceImpl.postUserFollow(UserFollowService.java:13)
+	at com.green.greengram.userfollow.UserFollowControllerImpl.postUserFollow(UserFollowController.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -6848,8 +6848,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=54) Duplicate entry '0-
 	at java.base/java.lang.Thread.run(Thread.java:840)
 [2024-05-21 11:18:17 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-21 11:18:17 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-21 11:18:19 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 3868 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 11:18:19 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 11:18:19 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 3868 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 11:18:19 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 11:18:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-21 11:18:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-21 11:18:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -6863,7 +6863,7 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=54) Duplicate entry '0-
 [2024-05-21 11:18:21 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 11:18:21 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 11:18:21 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 11:18:21 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.052 seconds (process running for 2.415)[0;39m
+[2024-05-21 11:18:21 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.052 seconds (process running for 2.415)[0;39m
 [2024-05-21 11:18:21 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-21 11:18:21 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-21 11:18:21 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
@@ -7035,8 +7035,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy102.insUserFollow(Unknown Source)
-	at com.green.greengram.userfollow.UserFollowService.postUserFollow(UserFollowService.java:13)
-	at com.green.greengram.userfollow.UserFollowController.postUserFollow(UserFollowController.java:18)
+	at com.green.greengram.userfollow.UserFollowServiceImpl.postUserFollow(UserFollowService.java:13)
+	at com.green.greengram.userfollow.UserFollowControllerImpl.postUserFollow(UserFollowController.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -7130,8 +7130,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy102.insUserFollow(Unknown Source)
-	at com.green.greengram.userfollow.UserFollowService.postUserFollow(UserFollowService.java:13)
-	at com.green.greengram.userfollow.UserFollowController.postUserFollow(UserFollowController.java:18)
+	at com.green.greengram.userfollow.UserFollowServiceImpl.postUserFollow(UserFollowService.java:13)
+	at com.green.greengram.userfollow.UserFollowControllerImpl.postUserFollow(UserFollowController.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -7190,8 +7190,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 [2024-05-21 11:19:27 [32mINFO [0;39m Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 11:19:27 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-21 11:19:27 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-21 11:19:27 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 3868 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 11:19:27 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 11:19:27 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 3868 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 11:19:27 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 11:19:27 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
 [2024-05-21 11:19:27 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 11:19:27 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
@@ -7203,10 +7203,10 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 [2024-05-21 11:19:28 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 11:19:28 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 11:19:28 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 11:19:28 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 0.566 seconds (process running for 68.81)[0;39m
+[2024-05-21 11:19:28 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 0.566 seconds (process running for 68.81)[0;39m
 [2024-05-21 11:19:28 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
-[2024-05-21 11:20:31 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 4484 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 11:20:31 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 11:20:31 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 4484 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 11:20:31 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 11:20:31 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-21 11:20:31 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-21 11:20:32 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -7220,7 +7220,7 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 [2024-05-21 11:20:32 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 11:20:32 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 11:20:32 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 11:20:32 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.026 seconds (process running for 2.386)[0;39m
+[2024-05-21 11:20:32 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.026 seconds (process running for 2.386)[0;39m
 [2024-05-21 11:20:33 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-21 11:20:33 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-21 11:20:33 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
@@ -8672,8 +8672,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
  {executed in 1 msec}[0;39m
 [2024-05-21 11:21:52 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-21 11:21:52 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-21 11:21:54 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 11516 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 11:21:54 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 11:21:54 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 11516 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 11:21:54 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 11:21:54 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-21 11:21:54 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-21 11:21:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -8687,7 +8687,7 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 [2024-05-21 11:21:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 11:21:56 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 11:21:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 11:21:56 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.072 seconds (process running for 2.448)[0;39m
+[2024-05-21 11:21:56 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.072 seconds (process running for 2.448)[0;39m
 [2024-05-21 11:21:56 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.193] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-21 11:21:56 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-21 11:21:56 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 2 ms[0;39m
@@ -11902,8 +11902,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 [0;39m
 [2024-05-21 11:40:54 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-21 11:40:54 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-21 11:40:56 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 9548 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 11:40:56 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 11:40:56 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 9548 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 11:40:56 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 11:40:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-21 11:40:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-21 11:40:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -11917,7 +11917,7 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 [2024-05-21 11:40:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 11:40:57 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 11:40:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 11:40:58 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.011 seconds (process running for 2.401)[0;39m
+[2024-05-21 11:40:58 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.011 seconds (process running for 2.401)[0;39m
 [2024-05-21 11:40:58 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.193] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-21 11:40:58 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-21 11:40:58 [32mINFO [0;39m RMI TCP Connection(1)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
@@ -11929,8 +11929,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 [2024-05-21 14:52:13 [32mINFO [0;39m Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 14:52:13 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-21 14:52:13 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-21 14:52:13 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 9548 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 14:52:13 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 14:52:13 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 9548 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 14:52:13 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 14:52:14 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
 [2024-05-21 14:52:14 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 14:52:14 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
@@ -11942,10 +11942,10 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 [2024-05-21 14:52:14 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 14:52:14 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 14:52:14 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 14:52:14 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 0.541 seconds (process running for 11478.645)[0;39m
+[2024-05-21 14:52:14 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 0.541 seconds (process running for 11478.645)[0;39m
 [2024-05-21 14:52:14 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
-[2024-05-21 18:11:02 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 1400 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 18:11:02 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 18:11:02 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 1400 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 18:11:02 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 18:11:02 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-21 18:11:02 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-21 18:11:03 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -11959,7 +11959,7 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 [2024-05-21 18:11:03 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 18:11:03 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 18:11:03 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 18:11:03 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.126 seconds (process running for 2.499)[0;39m
+[2024-05-21 18:11:03 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.126 seconds (process running for 2.499)[0;39m
 [2024-05-21 18:11:04 [32mINFO [0;39m RMI TCP Connection(4)-192.168.0.193] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-21 18:11:04 [32mINFO [0;39m RMI TCP Connection(4)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-21 18:11:04 [32mINFO [0;39m RMI TCP Connection(5)-192.168.0.193] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
@@ -11969,8 +11969,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 [2024-05-21 18:11:12 [32mINFO [0;39m http-nio-8080-exec-3] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 215 ms[0;39m
 [2024-05-21 18:11:30 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-21 18:11:30 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-21 18:11:32 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 7436 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 18:11:32 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 18:11:32 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 7436 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 18:11:32 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 18:11:32 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-21 18:11:32 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-21 18:11:33 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -11984,7 +11984,7 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 [2024-05-21 18:11:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 18:11:34 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 18:11:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 18:11:34 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.017 seconds (process running for 2.376)[0;39m
+[2024-05-21 18:11:34 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.017 seconds (process running for 2.376)[0;39m
 [2024-05-21 18:11:34 [32mINFO [0;39m RMI TCP Connection(3)-192.168.0.193] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-21 18:11:34 [32mINFO [0;39m RMI TCP Connection(3)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-21 18:11:34 [32mINFO [0;39m RMI TCP Connection(3)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
@@ -11996,8 +11996,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 [2024-05-21 18:13:04 [32mINFO [0;39m Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 18:13:04 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-21 18:13:04 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-21 18:13:04 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 7436 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-21 18:13:04 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-21 18:13:04 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 7436 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-21 18:13:04 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-21 18:13:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
 [2024-05-21 18:13:04 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 18:13:04 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
@@ -12009,5 +12009,5 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=64) Duplicate entry '0-
 [2024-05-21 18:13:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-21 18:13:04 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-21 18:13:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-21 18:13:04 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 0.516 seconds (process running for 92.371)[0;39m
+[2024-05-21 18:13:04 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 0.516 seconds (process running for 92.371)[0;39m
 [2024-05-21 18:13:04 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m

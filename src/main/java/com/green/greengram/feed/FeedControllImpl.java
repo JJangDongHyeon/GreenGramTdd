@@ -19,8 +19,8 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("api/feed")
-public class FeedControll {
-    private final FeedService service;
+public class FeedControllImpl {
+    private final FeedServiceImpl service;
     @PostMapping
     public ResultDto<FeedPostRes> postFeed(@RequestPart(required = false, name = "pics") List<MultipartFile> file
                                     , @RequestPart FeedPostReq p){

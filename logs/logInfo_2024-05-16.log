@@ -1,5 +1,5 @@
-[2024-05-16 18:39:52 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 11596 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-16 18:39:52 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-16 18:39:52 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 11596 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-16 18:39:52 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-16 18:39:53 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-16 18:39:53 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-16 18:39:54 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -8,4 +8,4 @@
 [2024-05-16 18:39:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
 [2024-05-16 18:39:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-16 18:39:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-16 18:39:56 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 3.556 seconds (process running for 4.197)[0;39m
+[2024-05-16 18:39:56 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 3.556 seconds (process running for 4.197)[0;39m

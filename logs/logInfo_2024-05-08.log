@@ -1,5 +1,5 @@
-[2024-05-08 16:39:25 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 11984 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-08 16:39:25 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-08 16:39:25 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 11984 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-08 16:39:25 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-08 16:39:25 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-08 16:39:25 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-08 16:39:26 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -12,7 +12,7 @@
 [2024-05-08 16:39:27 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-08 16:39:27 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-08 16:39:27 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-08 16:39:27 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.018 seconds (process running for 2.536)[0;39m
+[2024-05-08 16:39:27 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.018 seconds (process running for 2.536)[0;39m
 [2024-05-08 16:39:28 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-08 16:39:28 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-08 16:39:28 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
@@ -57,14 +57,14 @@
 java.lang.IllegalArgumentException: Invalid salt version
 	at org.mindrot.jbcrypt.BCrypt.hashpw(BCrypt.java:659)
 	at org.mindrot.jbcrypt.BCrypt.checkpw(BCrypt.java:764)
-	at com.green.greengram.user.UserService.postSignIn(UserService.java:49)
+	at com.green.greengram.user.UserServiceImpl.postSignIn(UserService.java:49)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
-	at com.green.greengram.user.UserService$$SpringCGLIB$$0.postSignIn(<generated>)
+	at com.green.greengram.user.UserServiceImpl$$SpringCGLIB$$0.postSignIn(<generated>)
 	at com.green.greengram.user.UserControll.postSignIn(UserControll.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -122,8 +122,8 @@ java.lang.IllegalArgumentException: Invalid salt version
 	at java.base/java.lang.Thread.run(Thread.java:840)
 [2024-05-08 16:43:08 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-08 16:43:08 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-08 16:43:10 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 11096 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-08 16:43:10 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-08 16:43:10 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 11096 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-08 16:43:10 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-08 16:43:10 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-08 16:43:10 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-08 16:43:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -136,7 +136,7 @@ java.lang.IllegalArgumentException: Invalid salt version
 [2024-05-08 16:43:12 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-08 16:43:12 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-08 16:43:12 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-08 16:43:12 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.013 seconds (process running for 2.373)[0;39m
+[2024-05-08 16:43:12 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.013 seconds (process running for 2.373)[0;39m
 [2024-05-08 16:43:12 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-08 16:43:12 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-08 16:43:12 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
@@ -157,8 +157,8 @@ java.lang.IllegalArgumentException: Invalid salt version
 [0;39m
 [2024-05-08 16:49:22 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-05-08 16:49:22 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-05-08 16:50:18 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 10020 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
-[2024-05-08 16:50:18 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-08 16:50:18 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarting GreenGramVer2Application using Java 17.0.10 with PID 10020 (D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\GreenGramVer2)[0;39m
+[2024-05-08 16:50:18 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
 [2024-05-08 16:50:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
 [2024-05-08 16:50:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
 [2024-05-08 16:50:19 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
@@ -171,7 +171,7 @@ java.lang.IllegalArgumentException: Invalid salt version
 [2024-05-08 16:50:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [36mExposing 1 endpoint(s) beneath base path '/actuator'[0;39m
 [2024-05-08 16:50:20 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
 [2024-05-08 16:50:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-05-08 16:50:20 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramVer2Application] [36mStarted GreenGramVer2Application in 2.067 seconds (process running for 2.435)[0;39m
+[2024-05-08 16:50:20 [32mINFO [0;39m restartedMain] [com.green.greengram.GreenGramTdd] [36mStarted GreenGramVer2Application in 2.067 seconds (process running for 2.435)[0;39m
 [2024-05-08 16:50:20 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
 [2024-05-08 16:50:20 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
 [2024-05-08 16:50:20 [32mINFO [0;39m RMI TCP Connection(2)-192.168.0.193] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m

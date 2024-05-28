@@ -1,13 +1,12 @@
 package com.green.greengram.feedFavorite;
 
-import com.green.greengram.feed.FeedMapper;
 import com.green.greengram.feedFavorite.model.FeedFavoriteToggleReq;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class FeedFavoriteService {
+public class FeedFavoriteServiceImpl {
     private final FeedFavoriteMapper mapper;
 
     public int toggleFavorite(FeedFavoriteToggleReq p){

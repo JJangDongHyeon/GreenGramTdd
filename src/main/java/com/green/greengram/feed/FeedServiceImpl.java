@@ -13,7 +13,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class FeedService {
+public class FeedServiceImpl {
     private final FeedMapper mapper;
     private final CustomFileUtils customFileUtils;
 
